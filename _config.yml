@@ -1,0 +1,3 @@
+name: Myblog
+markdown: redcarpet
+pygments: true
