@@ -1,0 +1,23 @@
+---
+layout: default
+title: About me
+---
+
+<div id="about">
+  <h1>About me</h1>
+  <p>I'm a french developer.</p>
+  </ul>
+</div>
+
+ <h1>Blog Posts</h1>
+  
+  <!-- This loops through the paginated posts -->
+{% for post in site.posts %}
+  <h1><a href="{{ post.url }}">{{ post.title }}</a></h1>
+  <p class="author">
+    <span class="date">{{ post.date }}</span>
+  </p>
+  <div class="content">
+    {{ post.content }}
+  </div>
+{% endfor %}

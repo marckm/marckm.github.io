@@ -7,4 +7,5 @@ pygments: true
 permalink: /blog/:year/:month/:title
 
 # configuration of pagination
-paginate: 5
+paginate: 2
+paginate_path: "/blog/page:num"

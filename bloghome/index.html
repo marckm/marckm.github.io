@@ -1,18 +1,12 @@
 ---
 layout: default
-title: Home
+title: Blog
 ---
 
 <div id="home">
-
- <div class="jumbotron">
-        <h1>Hello, world!</h1>
-        <p>This is a template for a simple marketing or informational website. It includes a large callout called a jumbotron and three supporting pieces of content. Use it as a starting point to create something more unique.</p>
-        <p><a href="#" class="btn btn-primary btn-lg" role="button">Learn more &raquo;</a></p>
-      </div>
-  
   <h1>Blog Posts</h1>
-    <!-- This loops through the paginated posts -->
+  
+  <!-- This loops through the paginated posts -->
 {% for post in paginator.posts %}
   <h1><a href="{{ post.url }}">{{ post.title }}</a></h1>
   <p class="author">
@@ -36,7 +30,5 @@ title: Home
   {% else %}
     <span class="next ">Next</span>
   {% endif %}
-</div>
-
 </div>
 </div>
