@@ -1,13 +1,30 @@
 ---
 layout: default
-title: Your New Jekyll Site
+title: Maxime Marck
 ---
 
 <div id="home">
   <h1>Blog Posts</h1>
   <ul class="posts">
-    {% for post in site.posts %}
-      <li><span>{{ post.date | date_to_string }}</span> &raquo; <a href="{{ post.url }}">{{ post.title }}</a></li>
+    {%  for post in paginator.posts %}
+      <li><span>{{ post.date | date_to_string }}</span> &raquo; <a href="{{ post.url }}">{{ post.title }}</a>
+
+      	{{ post.excerpt }}</li>     
+
     {% endfor %}
   </ul>
+
+  <div class="pagination">
+{% if paginator.previous_page %}
+    <a href="/page" class="previous">Page précédente</a>
+{%  else %}
+    <span class="previous">Page précédente</span>
+{%  endif %}
+  <span class="page_number ">Page:  sur </span>
+{%  if paginator.next_page %}
+    <a href="/page" class="next">Page suivante</a>
+{%  else %}
+    <span class="next">Page suivante</span>
+{%  endif %}
+</div>
 </div>

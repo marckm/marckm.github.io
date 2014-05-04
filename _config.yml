@@ -1,3 +1,10 @@
-name: Myblog
+# This files contains the settings of the blog
+
+author: Maxime Marck
+name: .NET Rocks
 markdown: redcarpet
 pygments: true
+permalink: /blog/:year/:month/:title
+
+# configuration of pagination
+paginate: 5
