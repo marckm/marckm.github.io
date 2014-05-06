@@ -16,3 +16,15 @@ Chronium embeded in a WPF Control
 
 Helps creating Dynamic objects in C#
 [https://github.com/amirrajan/Oak/wiki/gemini-deep-dive](https://github.com/amirrajan/Oak/wiki/gemini-deep-dive)
+
+## Specflow
+
+BDD in .NET
+
+[http://www.specflow.org/] (http://www.specflow.org/)
+
+## Calculated properties
+
+helps creating calculated properties in WPF
+
+[https://github.com/StephenCleary/CalculatedProperties](https://github.com/StephenCleary/CalculatedProperties)
