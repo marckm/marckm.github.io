@@ -28,3 +28,15 @@ BDD in .NET
 helps creating calculated properties in WPF
 
 [https://github.com/StephenCleary/CalculatedProperties](https://github.com/StephenCleary/CalculatedProperties)
+
+## TopShelf
+
+Windows Services made easy!
+
+[http://topshelf-project.com/](http://topshelf-project.com/)
+
+## Dapper
+
+An ORM in a single file
+
+[https://code.google.com/p/dapper-dot-net/](https://code.google.com/p/dapper-dot-net/)
