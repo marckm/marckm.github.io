@@ -29,14 +29,25 @@ helps creating calculated properties in WPF
 
 [https://github.com/StephenCleary/CalculatedProperties](https://github.com/StephenCleary/CalculatedProperties)
 
-## TopShelf
-
-Windows Services made easy!
-
-[http://topshelf-project.com/](http://topshelf-project.com/)
-
 ## Dapper
 
 An ORM in a single file
 
 [https://code.google.com/p/dapper-dot-net/](https://code.google.com/p/dapper-dot-net/)
+
+## EasyNetQ
+
+[https://github.com/mikehadlow/EasyNetQ/](https://github.com/mikehadlow/EasyNetQ/)
+[easynetq.com](easynetq.com)
+
+## WPF Notify Icon
+
+[www.hardcodet.net/wpf-notifyicon](www.hardcodet.net/wpf-notifyicon)
+
+## Rest Client
+
+[https://github.com/restsharp/RestSharp] (https://github.com/restsharp/RestSharp)
+
+## Toastr
+
+[https://github.com/CodeSeven/toastr](https://github.com/CodeSeven/toastr)
