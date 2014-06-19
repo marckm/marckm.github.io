@@ -42,3 +42,10 @@ FxCop for CSS
 
 [www.ncrunch.net](www.ncrunch.net)
 
+## Electric Mobile Studio
+
+[http://visualstudiogallery.msdn.microsoft.com/6bed5adb-1d6a-483d-9e22-ae0f88ec4477 ](http://visualstudiogallery.msdn.microsoft.com/6bed5adb-1d6a-483d-9e22-ae0f88ec4477)
+
+## Unit Test Generator  
+
+[http://visualstudiogallery.msdn.microsoft.com/45208924-e7b0-45df-8cff-165b505a38d7](http://visualstudiogallery.msdn.microsoft.com/45208924-e7b0-45df-8cff-165b505a38d7)
