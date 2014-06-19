@@ -95,7 +95,7 @@ Nuget 2013 - http://visualstudiogallery.msdn.microsoft.com/4ec1526c-4a8c-4a84-b7
 GhostDoc - http://visualstudiogallery.msdn.microsoft.com/46A20578-F0D5-4B1E-B55D-F001A6345748
 xUnit runner 2012 + 2013 - http://visualstudiogallery.msdn.microsoft.com/463c5987-f82b-46c8-a97e-b1cde42b9099
 
-Microsoft All-In-One Code Framework Sample Browser - http://1code.codeplex.com
+Microsoft All-In-One Code Framework Sample Browser - http://1code.codeplex.com or [blogs.msdn.com/b/onecode/](blogs.msdn.com/b/onecode/)
 
 Asp.Net Web Tools 2012.2 - http://www.asp.net/aspnet/overview/aspnet-and-visual-studio-2012/aspnet-and-web-tools-20122-release-notes#_ASP.NET_Web_API
 
