@@ -45,3 +45,6 @@ A gateway between GIT and TFS
 
 [https://github.com/continuoustests/AutoTest.Net](https://github.com/continuoustests/AutoTest.Net)
 
+# https://stackedit.io/
+
+Online Markdown editor [https://stackedit.io/](https://stackedit.io/)
