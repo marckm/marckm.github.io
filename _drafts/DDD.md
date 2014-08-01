@@ -8,3 +8,9 @@
 
 
 Good articile on managing domain events: [http://lostechies.com/jimmybogard/2014/05/13/a-better-domain-events-pattern/](http://lostechies.com/jimmybogard/2014/05/13/a-better-domain-events-pattern/)
+
+
+## CQRS
+
+[http://cqrs.nu/](http://cqrs.nu/)
+[www.soloco.be/eventstore-client-api-basics/](www.soloco.be/eventstore-client-api-basics/)
