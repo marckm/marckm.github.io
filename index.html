@@ -2,41 +2,32 @@
 layout: default
 title: Home
 ---
-
-<div id="home">
-
- <div class="jumbotron">
-        <h1>Hello, world!</h1>
-        <p>This is a template for a simple marketing or informational website. It includes a large callout called a jumbotron and three supporting pieces of content. Use it as a starting point to create something more unique.</p>
-        <p><a href="#" class="btn btn-primary btn-lg" role="button">Learn more &raquo;</a></p>
+<div class="jumbotron">
+        <h1>Maxime Marck</h1>
+        <p class="lead">.NET Export. Developer, architect in Microsoft .NET</p>
       </div>
+
+<div class="row">
+  <div class="col-xs-6 col-md-6">
+    <div class="panel panel-primary">
+       <div class="panel-heading">My last blog entries</div>
+  <!--<div class="panel-body"> </div>-->
+        <ul class="list-group">
+      {% for post in site.posts %}
+        <li class="list-group-item">
+          <a href="{{ post.url }}">{{ post.title }}</a> - <small>{{ post.date | date_to_string}}</small></li>
+      {% endfor %}
+    </ul>
   
-  <h1>Blog Posts</h1>
-    <!-- This loops through the paginated posts -->
-{% for post in paginator.posts %}
-  <h1><a href="{{ post.url }}">{{ post.title }}</a></h1>
-  <p class="author">
-    <span class="date">{{ post.date }}</span>
-  </p>
-  <div class="content">
-    {{ post.content }}
   </div>
-{% endfor %}
-
-<!-- Pagination links -->
-<div class="pagination">
-  {% if paginator.previous_page %}
-    <a href="/page{{ paginator.previous_page }}" class="previous">Previous</a>
-  {% else %}
-    <span class="previous">Previous</span>
-  {% endif %}
-  <span class="page_number ">Page: {{ paginator.page }} of {{ paginator.total_pages }}</span>
-  {% if paginator.next_page %}
-    <a href="/page{{ paginator.next_page }}" class="next">Next</a>
-  {% else %}
-    <span class="next ">Next</span>
-  {% endif %}
-</div>
-
-</div>
+  </div>
+   <div class="col-xs-6 col-md-6">
+      <div class="panel panel-primary">
+       <div class="panel-heading">My resume</div>
+      <ul class="list-group">
+      <li class="list-group-item"><a href="/Resume/index.html#Experiences">Experience</a></li>
+      <li class="list-group-item"><a href="/Resume/index.html#Techs">Technologies</a></li>
+      </ul>
+      </div>
+  </div>
 </div>

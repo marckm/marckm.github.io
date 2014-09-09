@@ -4,6 +4,21 @@ layout: default
 <h2>{{ page.title }}</h2>
 <p class="meta">{{ page.date | date_to_string }}</p>
 
-<div class="post">
-{{ content }}
+	<div class="post">
+	{{ content }}
+	</div>
+
+<div>
+
+<ul class="pager">
+	{% if page.next %}
+	<li class="next"><a href="{{ page.next.url }}">Next</a></li>
+	{% else %}
+	<li class="next disabled"><a href="{{ page.next.url }}">Next</a></li>
+	{% endif %}
+	{% if page.previous %}
+	<li class="previous"><a href="{{ page.previous.url }}">Previous</a></li>
+	{% else %}
+	<li class="previous disabled"><a href="{{ page.previous.url }}">Previous</a></li>
+	{% endif %}
 </div>

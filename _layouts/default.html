@@ -1,23 +1,18 @@
 <!DOCTYPE html>
 <html lang="en">
+
     {% include head.html %}
+
     <body>
+      <a id="Top" />
+      {% include nav.html %}
 
-          {% include nav.html %}
+      <div class="container">
+            {{ content }}
+      </div><!-- /.container -->
 
-        <div class="site">
-          <div class="header">
-            <h1 class="title"><a href="/">{{ site.name }}</a></h1>
-            <a class="extra" href="/">home</a>
-          </div>
- <div class="container theme-showcase" role="main">
+      {% include footer.html %}
 
-          {{ content }}
-</div>
-
-          {% include footer.html %}
-        </div>
-
-    {% include scripts.html %}
+      {% include scripts.html %}
     </body>
 </html>

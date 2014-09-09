@@ -3,32 +3,35 @@ layout: default
 title: Blog
 ---
 
-<div id="home">
   <h1>Blog Posts</h1>
-  
-  <!-- This loops through the paginated posts -->
+    <!-- This loops through the paginated posts -->
 {% for post in paginator.posts %}
-  <h1><a href="{{ post.url }}">{{ post.title }}</a></h1>
+  <h2><a href="{{ post.url }}">{{ post.title }}</a></h2>
   <p class="author">
-    <span class="date">{{ post.date }}</span>
+  	<small>
+    <span class="date">{{ post.date | date_to_string}}</span>
+</small>
   </p>
   <div class="content">
-    {{ post.content }}
+    {{ post.excerpt }}
   </div>
 {% endfor %}
 
 <!-- Pagination links -->
-<div class="pagination">
+<ul class="pagination">
+	<li>
   {% if paginator.previous_page %}
     <a href="/page{{ paginator.previous_page }}" class="previous">Previous</a>
   {% else %}
     <span class="previous">Previous</span>
   {% endif %}
+</li>
+<li>
   <span class="page_number ">Page: {{ paginator.page }} of {{ paginator.total_pages }}</span>
   {% if paginator.next_page %}
     <a href="/page{{ paginator.next_page }}" class="next">Next</a>
   {% else %}
     <span class="next ">Next</span>
   {% endif %}
-</div>
-</div>
+</li>
+</ul>
